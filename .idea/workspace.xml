@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="171e99ad-85f2-4a66-949a-0a9430e41a3a" name="Changes" comment="" />
+    <list default="true" id="171e99ad-85f2-4a66-949a-0a9430e41a3a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/day1/luyentap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/DoYouLoveMe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/basiccomputer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/caudk1/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/caudk1/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/caudk1/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/caudk1/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/caudk1/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/chisoBMI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/eventkeyboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/good_fast_cheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/sukienchuot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day2/switchcaase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/if_else_if.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/if_else_if.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ktnamnhuan.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/ktnamnhuan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/luyentapifelse.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/luyentapifelse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math3n/math3ngoi.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/math3n/math3ngoi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math3n/toan3ngoi2.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/math3n/toan3ngoi2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switchcase/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/switchcase/sign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switchcase/switch_case1.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/switchcase/switch_case1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/switchcase/switch_case2.html" beforeDir="false" afterPath="$PROJECT_DIR$/day1/switchcase/switch_case2.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +41,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="38EIgdDrmvcWLylSJrXOYeTaufM" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,14 +57,19 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "git-widget-placeholder": "master",
     "javascript.preferred.runtime.type.id": "node",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codegym\caudieukien\buoi1" />
+      <recent name="D:\codegym\caudieukien" />
       <recent name="D:\codegym\caudieukien\switchcase\math3n" />
       <recent name="D:\codegym\caudieukien\switchcase" />
     </key>
@@ -60,7 +88,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768358415974</updated>
-      <workItem from="1768358417257" duration="10419000" />
+      <workItem from="1768358417257" duration="15210000" />
+      <workItem from="1768440226289" duration="23289000" />
     </task>
     <servers />
   </component>

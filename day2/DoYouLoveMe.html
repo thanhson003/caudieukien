@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    button{
+      margin: 0px 10px;
+    }
+  </style>
+</head>
+    <body>
+      <h1>Do you love me?</h1>
+      <button type="button" id="co" onclick="clickyes()">YES</button>
+      <button type="button" id="khong" onmouseover="clickno()" style="position: absolute">NO</button>
+    </body>
+
+    <script>
+      function clickyes(){
+        alert(" <3 ")
+      }
+      function clickno(){
+        var x = Math.random(Math.random()) * window.innerHeight //trả về chiều cao
+        var y = Math.random(Math.random()) * window.innerWidth  //trả về chiều rộng
+        document.getElementById("khong").style.top = x + "px";
+        document.getElementById("khong").style.left = y + "px";
+      }
+    </script>
+</html>

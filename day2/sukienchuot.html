@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sự kiện chuột</title>
+</head>
+    <body>
+        <form>
+            <img id="picture" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg" alt="" style="width: 30%">
+            <p>Click button below to move the image to right</p>
+            <input type="button" value="Click me" onclick="moveright()"/>
+        </form>
+
+    <script>
+        let img = null;
+        img = document.getElementById("picture");
+        function init(){
+            img = document.getElementById("picture");
+            img.style.position = "relative";
+            img.style.left = '0px'
+        }
+        function moveright(){
+            img.style.left = parseInt(img.style.left) + 10 + "px";
+        }
+        window.onload = init;
+    </script>
+    </body>
+</html>

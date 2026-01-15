@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+    <body>
+        <input type="number" id="thang" min="1" max="12">
+        <button onclick="check()">Tính số ngày</button>
+        <p id="result">Kết quả</p>
+
+        <script>
+            let Thang1 = "1";
+            let Thang2 = "2";
+            let Thang3 = "3";
+            let Thang4 = "4";
+            let Thang5 = "5";
+            let Thang6 = "6";
+            let Thang7 = "7";
+            let Thang8 = "8";
+            let Thang9 = "9";
+            let Thang10 = "10";
+            let Thang11 = "11";
+            let Thang12 = "12";
+           function check() {
+               let month = document.getElementById("thang").value;
+               switch (month) {
+                   case Thang1:
+                   case Thang3:
+                   case Thang5:
+                   case Thang7:
+                   case Thang8:
+                   case Thang10:
+                   case Thang12:
+                       document.getElementById("result").innerText = "Tháng " + month + " có 31 ngày";
+                       break;
+                   case Thang4:
+                   case Thang6:
+                   case Thang9:
+                   case Thang11:
+                       document.getElementById("result").innerText = "Tháng " + month + " có 30 ngày";
+                       break;
+                   case Thang2:
+                       document.getElementById("result").innerText = "Tháng " + month + " có 28 hoặc 29 ngày";
+                       break;
+               }
+           }
+        </script>
+    </body>
+</html>
+<!--let Thang1 = "1";-->
+<!--let Thang2 = "2";-->
+<!--let Thang3 = "3";-->
+<!--let Thang4 = "4";-->
+<!--let Thang5 = "5";-->
+<!--let Thang6 = "6";-->
+<!--let Thang7 = "7";-->
+<!--let Thang8 = "8";-->
+<!--let Thang9 = "9";-->
+<!--let Thang10 = "10";-->
+<!--let Thang11 = "11";-->
+<!--let Thang12 = "12";-->
